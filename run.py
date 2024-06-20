@@ -4,14 +4,18 @@ import numpy as np
 pip install PyPDF2
 from PyPDF2 import PdfReader
 import re
+pip install nltk
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
+pip install tensorflow
 from tensorflow.keras.models import load_model
+pip install altair
 import altair as alt
 import pickle
 from sklearn.preprocessing import LabelEncoder
+pip install folium
 import folium
 from streamlit_folium import folium_static
 import geopandas as gpd
