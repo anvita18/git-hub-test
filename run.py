@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+pip install PyPDF2
 from PyPDF2 import PdfReader
 import re
 import nltk
